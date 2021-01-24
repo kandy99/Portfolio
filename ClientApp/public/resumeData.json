@@ -1,0 +1,106 @@
+{
+  "main": {
+    "name": "Ankush Kandwal",
+    "occupation": "Chatbot Developer at Project Objects",
+    "description": "Full Stack Developer and Cognitive Services Professional.",
+    "image": "Eva.jpg",
+    "bio": "My name is Ankush Kandwal and I am here to learn",
+    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+    "email": "ankushkandwal99@gmail.com",
+    "phone": "8979465413",
+    "address": {
+      "street": "M-132 Hari Om pg",
+      "city": "Noida ",
+      "state": "Uttarpradesh",
+      "zip": "201301"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "https://resume.io/r/HYloND8Va"
+  },
+  "resume": {
+    "skillmessage": "Currently working as Chat Bot Developer for web applications and Microsoft Teams",
+    "education": [
+      {
+        "school": "Govind Ballabh Pant Institute of Engineering & Technology, Ghurdauri",
+        "degree": "Bachelor's Degree, Electronics and Communication",
+        "graduated": "June 2019"
+
+      },
+      {
+        "school": "Shri Guru Ram Rai Public School, Kotdwara",
+        "degree": "Intermediate Degree",
+        "graduated": "April 2014"
+
+      },
+      {
+        "school": "Shri Guru Ram Rai Public School, Kotdwara",
+        "degree": "High School",
+        "graduated": "April 2012"
+
+      }
+    ],
+    "work": [
+      {
+        "company": "Project Objects",
+        "title": "Programmer Analyst",
+        "years": "August 2019 - Present",
+        "description": "Currently working as Chat Bot Developer for web applications and Microsoft Teams using Microsoft Bot Framework V4 and Microsoft cognitive services - LUIS, QA"
+      }
+    
+    ],
+    "skills": [
+      {
+        "name": "SQL",
+        "level": "65%"
+      },
+      {
+        "name": "Python",
+        "level": "75%"
+      },
+      {
+        "name": "Git",
+        "level": "75%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "65%"
+      },
+      {
+        "name": "Bot Framewrok",
+        "level": "80%"
+      },
+      {
+        "name": "Luis",
+        "level": "90%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Zoom Clone with NodeJS",
+        "category": "Zoom Clone built with NodeJS",
+        "image": "zoom.jpg",
+        "url": "https://www.youtube.com/watch?v=ZVznzY7EjuY"
+      },
+      {
+        "title": "Robinhood Clone",
+        "category": "Robinhood Clone built with ReactJS",
+        "image": "robinhood.jpg",
+        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Naz must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
