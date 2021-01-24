@@ -230,6 +230,65 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
+/* ------------------------------------------------------------------ */
+/*  Blog Section
+/* ------------------------------------------------------------------ */
+
+#blogs {
+   background: #2B2B2B;
+   padding-top: 16px;
+   padding-bottom: 96px;
+   overflow: hidden;
+}
+
+#blogs a, #blogs a:visited  { color: #fff; }
+#blogs a:hover, #blogs a:focus { color: #11ABB0; }
+
+#blogs h2 {
+   font: 28px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+   margin: revert;
+   text-transform: capitalize;
+}
+#blogs h3 {
+   font: 18px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+   text-transform: capitalize;
+}
+#blogs .info {
+  display: flex;
+  align-items: flex-start;
+ }
+ #blogs .avatar {
+   vertical-align: middle;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin : 20px 20px;
+ }
+#blogs p {
+   line-height: 30px;
+   color: lightcyan;
+   padding: 20px 20px;
+}
+#blogs .author {
+   font-size: small;
+   margin: 20px 20px -10px 0px;
+   display: flex;
+   color: white;
+   align-items: flex-end;
+   justify-content: flex-end;
+   }
+#blogs .designation {
+   font-size: small;
+   display: flex;
+   margin-right: 20px;
+   color: white;
+   align-items: flex-end;
+   justify-content: flex-end;
+ }
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
@@ -248,6 +307,7 @@ ul#nav li.current a { color: #F06000; }
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
+  
    letter-spacing: 1px;
 }
 #resume h1 span {

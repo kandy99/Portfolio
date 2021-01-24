@@ -12,6 +12,7 @@ import Contact from './components/Contact';
 import Testimonials from './components/Testimonials';
 import Portfolio from './components/Portfolio';
 import Header from './components/Header';
+import Blogs from "./components/Blogs";
 
 import './custom.css'
 
@@ -48,22 +49,23 @@ export default class App extends Component {
 
 
 
-  render () {
-      return (
-          <div className="App">
-              <Header data={this.state.resumeData.main} />
-              <About data={this.state.resumeData.main} />
-              <Resume data={this.state.resumeData.resume} />
-              <Contact data={this.state.resumeData.main} />
-              
-          </div>
+    render() {
+        return (
+            <div className="App">
+                <Header data={this.state.resumeData.main} />
+                <About data={this.state.resumeData.main} />
+                <Resume data={this.state.resumeData.resume} />
+                <Contact data={this.state.resumeData.main} />
+                <Blogs data={this.state.resumeData.blogs} />
 
-      //  <Layout>
+            </div>
 
-      //  <Route exact path='/' component={Home} />
-      //  <Route path='/counter' component={Counter} />
-      //  <Route path='/fetch-data' component={FetchData} />
-      //</Layout>
-    );
-  }
+            //  <Layout>
+
+            //  <Route exact path='/' component={Home} />
+            //  <Route path='/counter' component={Counter} />
+            //  <Route path='/fetch-data' component={FetchData} />
+            //</Layout>
+        );
+    }
 }
