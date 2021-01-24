@@ -55,8 +55,8 @@ export default class App extends Component {
                 <Header data={this.state.resumeData.main} />
                 <About data={this.state.resumeData.main} />
                 <Resume data={this.state.resumeData.resume} />
-                <Contact data={this.state.resumeData.main} />
                 <Blogs data={this.state.resumeData.blogs} />
+                <Contact data={this.state.resumeData.main} />
 
             </div>
 
